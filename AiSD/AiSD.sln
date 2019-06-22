@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User Interface", "Start project(Click Here)\User Interface\User Interface.csproj", "{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business logic(3)", "Start project(Click Here)\Business logic(3)\Business logic(3)\Business logic(3).csproj", "{C2365170-84E9-4338-8653-D03710F7E6AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 1", "Task_1_(2 semestor)\Task_1_(2 semestor)\Task 1.csproj", "{A416F2D1-FB63-4B92-8441-C825CD70C1C6}"
@@ -13,15 +11,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 4", "Task_4(2s)\Task_4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 5", "Task_5(готов_2)\Task_5(готов_2)\Task_5\Task 5.csproj", "{39A893C5-91CD-42F4-A987-31C8A929C9F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 3", "Start project(Click Here)\Task 3\Task 3.csproj", "{B29C243F-1E83-46BB-A1E8-6C1D74019641}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 3", "Task 3\Task 3.csproj", "{B29C243F-1E83-46BB-A1E8-6C1D74019641}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 2", "Start project(Click Here)\Task_2_(2_semestr)\Task 2.csproj", "{8A95DEF9-2A66-4320-B4C1-D26409AC9D33}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 2", "Task_2_(2_semestr)\Task 2.csproj", "{8A95DEF9-2A66-4320-B4C1-D26409AC9D33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 6", "Start project(Click Here)\Task 6\Task 6.csproj", "{348FC755-140D-4DBC-984B-E58DE73ECA88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 6", "Task 6\Task 6.csproj", "{348FC755-140D-4DBC-984B-E58DE73ECA88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 7", "Start project(Click Here)\Task 6 (UI)\Task 7.csproj", "{BD6D9CC1-DD88-4D0F-B5E3-2713DBEC397F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 7", "Task 6 (UI)\Task 7.csproj", "{BD6D9CC1-DD88-4D0F-B5E3-2713DBEC397F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 10", "Start project(Click Here)\Task 10\Task 10.csproj", "{82A8F199-B34C-4726-A9BA-2FA2A6D2A807}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 10", "Task 10\Task 10.csproj", "{82A8F199-B34C-4726-A9BA-2FA2A6D2A807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User Interface", "User Interface\User Interface.csproj", "{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Debug|x86.Build.0 = Debug|Any CPU
-		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Release|x86.ActiveCfg = Release|Any CPU
-		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Release|x86.Build.0 = Release|Any CPU
 		{C2365170-84E9-4338-8653-D03710F7E6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C2365170-84E9-4338-8653-D03710F7E6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2365170-84E9-4338-8653-D03710F7E6AD}.Debug|x86.ActiveCfg = Debug|Any CPU
@@ -103,6 +95,14 @@ Global
 		{82A8F199-B34C-4726-A9BA-2FA2A6D2A807}.Release|Any CPU.Build.0 = Release|Any CPU
 		{82A8F199-B34C-4726-A9BA-2FA2A6D2A807}.Release|x86.ActiveCfg = Release|Any CPU
 		{82A8F199-B34C-4726-A9BA-2FA2A6D2A807}.Release|x86.Build.0 = Release|Any CPU
+		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Debug|x86.Build.0 = Debug|Any CPU
+		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Release|x86.ActiveCfg = Release|Any CPU
+		{5B667C1F-5353-4D09-AD48-E08FDBDE5C6D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
