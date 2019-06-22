@@ -7,7 +7,7 @@ using System.Windows.Forms;
 namespace Task_6__UI_
 {
    public static class Program
-    {
+    { 
         public static SetArrForm SetArrForm;
         public static SortViewForm SortViewForm;
         /// <summary>
